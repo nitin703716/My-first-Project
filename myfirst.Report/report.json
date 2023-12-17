@@ -45,12 +45,12 @@
           "z": 0.00
         },
         {
-          "config": "{\"name\":\"b046ce098f5252f5470f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":739,\"y\":0,\"width\":541,\"height\":317,\"z\":2,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Customer Invoice Line Report.sum\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer Invoice Line Report\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"nitinVerma17/12/23\"},\"Name\":\"Customer Invoice Line Report.sum\",\"NativeReferenceName\":\"nitinVerma17/12/23\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"nitinVerma17/12/23\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "config": "{\"name\":\"b046ce098f5252f5470f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":707.9646017699115,\"y\":158.5840707964602,\"z\":2,\"width\":541.8289085545723,\"height\":317.1681415929204,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Customer Invoice Line Report.nitinVerma17/12/23\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer Invoice Line Report\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"nitinVerma17/12/23\"},\"Name\":\"Customer Invoice Line Report.nitinVerma17/12/23\",\"NativeReferenceName\":\"nitinVerma17/12/23\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"nitinVerma17/12/23\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
           "filters": "[]",
-          "height": 317.00,
-          "width": 541.00,
-          "x": 739.00,
-          "y": 0.00,
+          "height": 317.17,
+          "width": 541.83,
+          "x": 707.96,
+          "y": 158.58,
           "z": 2.00
         }
       ],
