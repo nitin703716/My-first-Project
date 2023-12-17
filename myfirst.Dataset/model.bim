@@ -757,7 +757,7 @@
         "measures": [
           {
             "name": "nitinVerma17/12/23",
-            "expression": "count('Customer Invoice Line Report'[CGST Tax Amount])",
+            "expression": "count('Customer Invoice Line Report'[Client Name])",
             "formatString": "0",
             "lineageTag": "9bf0f707-80ac-485d-952e-8f7bed6159ca"
           }
