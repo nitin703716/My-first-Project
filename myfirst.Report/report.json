@@ -1,0 +1,60 @@
+{
+  "config": "{\"version\":\"5.47\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU08\",\"version\":\"5.48\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY23SU08",
+            "path": "BaseThemes/CY23SU08.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"2c78b07df6c798a5bb54\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"width\":729,\"height\":317,\"z\":1,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Customer Invoice Line Report.Due Date\"},{\"queryRef\":\"Sum(Customer Invoice Line Report.Billed Currency Fee)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer Invoice Line Report\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Billed Currency Fee\"}},\"Function\":0},\"Name\":\"Sum(Customer Invoice Line Report.Billed Currency Fee)\",\"NativeReferenceName\":\"Sum of Billed Currency Fee\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Due Date\"},\"Name\":\"Customer Invoice Line Report.Due Date\",\"NativeReferenceName\":\"Due Date\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 317.00,
+          "width": 729.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 1.00
+        },
+        {
+          "config": "{\"name\":\"6f1077832551dea432d0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":13.215339233038348,\"y\":387.02064896755167,\"z\":0,\"width\":728.7315634218289,\"height\":317.1681415929204}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Customer Invoice Line Report.CGST Rate)\"}],\"Category\":[{\"queryRef\":\"Customer Invoice Line Report.Against invoice Num\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer Invoice Line Report\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"CGST Rate\"}},\"Function\":0},\"Name\":\"Sum(Customer Invoice Line Report.CGST Rate)\",\"NativeReferenceName\":\"Sum of CGST Rate\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Against invoice Num\"},\"Name\":\"Customer Invoice Line Report.Against invoice Num\",\"NativeReferenceName\":\"Against invoice Num\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"CGST Rate\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 317.17,
+          "width": 728.73,
+          "x": 13.22,
+          "y": 387.02,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"b046ce098f5252f5470f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":739,\"y\":0,\"width\":541,\"height\":317,\"z\":2,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Customer Invoice Line Report.sum\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer Invoice Line Report\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"nitinVerma17/12/23\"},\"Name\":\"Customer Invoice Line Report.sum\",\"NativeReferenceName\":\"nitinVerma17/12/23\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"nitinVerma17/12/23\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 317.00,
+          "width": 541.00,
+          "x": 739.00,
+          "y": 0.00,
+          "z": 2.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
