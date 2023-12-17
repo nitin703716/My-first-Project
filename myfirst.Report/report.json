@@ -45,12 +45,21 @@
           "z": 0.00
         },
         {
-          "config": "{\"name\":\"b046ce098f5252f5470f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":707.9646017699115,\"y\":158.5840707964602,\"z\":2,\"width\":541.8289085545723,\"height\":317.1681415929204,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Customer Invoice Line Report.nitinVerma17/12/23\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer Invoice Line Report\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"nitinVerma17/12/23\"},\"Name\":\"Customer Invoice Line Report.nitinVerma17/12/23\",\"NativeReferenceName\":\"nitinVerma17/12/23\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"nitinVerma17/12/23\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "config": "{\"name\":\"9bfa024e427092af86cb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":789.1445427728614,\"y\":307.72861356932157,\"z\":3,\"width\":490.8554572271387,\"height\":158.5840707964602,\"tabOrder\":3}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Customer Invoice Line Report.Due Date\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer Invoice Line Report\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Due Date\"},\"Name\":\"Customer Invoice Line Report.Due Date\",\"NativeReferenceName\":\"Due Date\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Due Date\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Between'\"}}}}}]}}}",
           "filters": "[]",
-          "height": 317.17,
+          "height": 158.58,
+          "width": 490.86,
+          "x": 789.14,
+          "y": 307.73,
+          "z": 3.00
+        },
+        {
+          "config": "{\"name\":\"b046ce098f5252f5470f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":677.7581120943953,\"y\":0,\"z\":2,\"width\":541.8289085545723,\"height\":158.5840707964602,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Customer Invoice Line Report.nitinVerma17/12/23\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer Invoice Line Report\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"nitinVerma17/12/23\"},\"Name\":\"Customer Invoice Line Report.nitinVerma17/12/23\",\"NativeReferenceName\":\"nitinVerma17/12/23\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"nitinVerma17/12/23\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 158.58,
           "width": 541.83,
-          "x": 707.96,
-          "y": 158.58,
+          "x": 677.76,
+          "y": 0.00,
           "z": 2.00
         }
       ],
