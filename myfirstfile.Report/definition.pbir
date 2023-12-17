@@ -2,7 +2,7 @@
   "version": "1.0",
   "datasetReference": {
     "byPath": {
-      "path": "../myfirst.Dataset"
+      "path": "../myfirstfile.Dataset"
     },
     "byConnection": null
   }
