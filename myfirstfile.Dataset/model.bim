@@ -757,7 +757,7 @@
         "measures": [
           {
             "name": "NitinVerma",
-            "expression": "sum('Customer Invoice Line Report'[CGST Rate])",
+            "expression": "COUNT('Customer Invoice Line Report'[CGST Rate])",
             "formatString": "0",
             "lineageTag": "76731f7c-7f9a-4729-b7d4-b7ff7d7b2b0f"
           }
