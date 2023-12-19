@@ -1,0 +1,60 @@
+{
+  "config": "{\"version\":\"5.47\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU08\",\"version\":\"5.48\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY23SU08",
+            "path": "BaseThemes/CY23SU08.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"764b1b3140741a7ca861\",\"layouts\":[{\"id\":0,\"position\":{\"x\":668.3185840707965,\"y\":0,\"z\":1000,\"width\":611.6814159292036,\"height\":260.53097345132744,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Customer Invoice Line Report.NitinVerma\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer Invoice Line Report\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"NitinVerma\"},\"Name\":\"Customer Invoice Line Report.NitinVerma\",\"NativeReferenceName\":\"NitinVerma\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"NitinVerma\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 260.53,
+          "width": 611.68,
+          "x": 668.32,
+          "y": 0.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"9c8fd82a96fe5d2b8fd5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":56.63716814159292,\"y\":360.58997050147497,\"z\":1001,\"width\":651.3274336283187,\"height\":311.50442477876106}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Customer Invoice Line Report.Billed Currency OPE)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer Invoice Line Report\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Billed Currency OPE\"}},\"Function\":0},\"Name\":\"Sum(Customer Invoice Line Report.Billed Currency OPE)\",\"NativeReferenceName\":\"Sum of Billed Currency OPE\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Title chnage'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 311.50,
+          "width": 651.33,
+          "x": 56.64,
+          "y": 360.59,
+          "z": 1001.00
+        },
+        {
+          "config": "{\"name\":\"d415506d6d3f67c1d19a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.43952802359882,\"y\":0,\"z\":0,\"width\":513.5103244837759,\"height\":360.58997050147497,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"stackedAreaChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Customer Invoice Line Report.Due Date.Variation.Date Hierarchy.Year\",\"active\":true},{\"queryRef\":\"Customer Invoice Line Report.Due Date.Variation.Date Hierarchy.Quarter\"},{\"queryRef\":\"Customer Invoice Line Report.Due Date.Variation.Date Hierarchy.Month\"},{\"queryRef\":\"Customer Invoice Line Report.Due Date.Variation.Date Hierarchy.Day\"}],\"Y\":[{\"queryRef\":\"Sum(Customer Invoice Line Report.Billed Currency OPE)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer Invoice Line Report\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Name\":\"Variation\",\"Property\":\"Due Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Year\"},\"Name\":\"Customer Invoice Line Report.Due Date.Variation.Date Hierarchy.Year\",\"NativeReferenceName\":\"Due Date Year\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Name\":\"Variation\",\"Property\":\"Due Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Quarter\"},\"Name\":\"Customer Invoice Line Report.Due Date.Variation.Date Hierarchy.Quarter\",\"NativeReferenceName\":\"Due Date Quarter\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Name\":\"Variation\",\"Property\":\"Due Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Month\"},\"Name\":\"Customer Invoice Line Report.Due Date.Variation.Date Hierarchy.Month\",\"NativeReferenceName\":\"Due Date Month\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Name\":\"Variation\",\"Property\":\"Due Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Day\"},\"Name\":\"Customer Invoice Line Report.Due Date.Variation.Date Hierarchy.Day\",\"NativeReferenceName\":\"Due Date Day\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Billed Currency OPE\"}},\"Function\":0},\"Name\":\"Sum(Customer Invoice Line Report.Billed Currency OPE)\",\"NativeReferenceName\":\"Sum of Billed Currency OPE\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 360.59,
+          "width": 513.51,
+          "x": 9.44,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
