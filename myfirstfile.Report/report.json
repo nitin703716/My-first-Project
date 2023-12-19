@@ -36,12 +36,12 @@
           "z": 1000.00
         },
         {
-          "config": "{\"name\":\"9c8fd82a96fe5d2b8fd5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":407.78761061946904,\"z\":1001,\"width\":1138.4070796460178,\"height\":311.50442477876106}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Customer Invoice Line Report.Billed Currency OPE)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer Invoice Line Report\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Billed Currency OPE\"}},\"Function\":0},\"Name\":\"Sum(Customer Invoice Line Report.Billed Currency OPE)\",\"NativeReferenceName\":\"Sum of Billed Currency OPE\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Title chnage'\"}}}}}]}}}",
+          "config": "{\"name\":\"9c8fd82a96fe5d2b8fd5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":305.8407079646018,\"y\":273.7463126843658,\"z\":1001,\"width\":830.6784660766962,\"height\":445.54572271386434}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Customer Invoice Line Report.Billed Currency OPE)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer Invoice Line Report\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Billed Currency OPE\"}},\"Function\":0},\"Name\":\"Sum(Customer Invoice Line Report.Billed Currency OPE)\",\"NativeReferenceName\":\"Sum of Billed Currency OPE\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Title chnage'\"}}}}}]}}}",
           "filters": "[]",
-          "height": 311.50,
-          "width": 1138.41,
-          "x": 0.00,
-          "y": 407.79,
+          "height": 445.55,
+          "width": 830.68,
+          "x": 305.84,
+          "y": 273.75,
           "z": 1001.00
         },
         {
