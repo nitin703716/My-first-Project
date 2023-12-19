@@ -36,10 +36,10 @@
           "z": 1000.00
         },
         {
-          "config": "{\"name\":\"9c8fd82a96fe5d2b8fd5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":56.63716814159292,\"y\":360.58997050147497,\"z\":1001,\"width\":507.84660766961656,\"height\":311.50442477876106}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Customer Invoice Line Report.Billed Currency OPE)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer Invoice Line Report\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Billed Currency OPE\"}},\"Function\":0},\"Name\":\"Sum(Customer Invoice Line Report.Billed Currency OPE)\",\"NativeReferenceName\":\"Sum of Billed Currency OPE\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Title chnage'\"}}}}}]}}}",
+          "config": "{\"name\":\"9c8fd82a96fe5d2b8fd5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":56.63716814159292,\"y\":360.58997050147497,\"z\":1001,\"width\":917.5221238938053,\"height\":311.50442477876106}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Customer Invoice Line Report.Billed Currency OPE)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Customer Invoice Line Report\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Billed Currency OPE\"}},\"Function\":0},\"Name\":\"Sum(Customer Invoice Line Report.Billed Currency OPE)\",\"NativeReferenceName\":\"Sum of Billed Currency OPE\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Title chnage'\"}}}}}]}}}",
           "filters": "[]",
           "height": 311.50,
-          "width": 507.85,
+          "width": 917.52,
           "x": 56.64,
           "y": 360.59,
           "z": 1001.00
